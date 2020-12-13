@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200&family=Montserrat:ital@1&family=Russo+One&family=Work+Sans:wght@300&display=swap');
+
+body{
+    font-family: 'Work Sans', sans-serif;
+    margin: 0rem;
+}
+:root{
+    --primary-color:#0087ff;
+    --bg-color:#D1D5DB;
+}
+.containers{
+    padding: 1rem 1rem;
+}
+.navigation {
+    background-color: var(--primary-color);
+    padding:1rem;
+    border-bottom-left-radius: 1rem;
+}
+.list-non-bullet{
+    list-style:none;
+}
+.list-inline{
+    font-weight: bold;
+    display: inline;
+    padding:1rem 1rem;
+}
+.link{
+    text-decoration: none ;
+    color:white;
+}
+.nav-bar{
+    text-align: right;
+}
+.navigation .nav-head{
+    font-weight: 900;
+    padding-left: 1rem;
+    
+}
+.hero{
+    padding-top: 2rem;
+
+
+}
+.hero .hero-image{
+    width: 450px;
+    display:block;
+    margin: auto;
+}
+.main-header{
+    text-align: center;
+    padding:1rem 1rem;
+    color:gray;
+}
+.main-header .aditya{
+    color: var(--primary-color);
+}
+.center-text{
+    text-align: center;
+
+}
+.text-body{
+    background-color: var(--bg-color);
+    padding: 2rem 2rem;
+    border-radius: 5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+}
+.footer {
+    background-color: var(--primary-color);
+    padding:2rem 2rem;
+    border-top-right-radius: 1rem;
+    text-align: center;
+    margin: 0rem;
+}
+    
