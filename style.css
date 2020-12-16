@@ -37,7 +37,9 @@ body{
     
 }
 .navigation .nav-bar .link-active{
-    font-weight: bold;}
+    font-weight: bolder;
+    color: #FCD34D;
+}
 
 .hero{
     padding-top: 2rem;
@@ -77,6 +79,13 @@ body{
     margin: 0rem;
     padding-inline-start: 0px;
 }
+.plink {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+
   /* projects page */
 
   .text-body2{
