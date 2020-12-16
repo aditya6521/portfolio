@@ -16,6 +16,9 @@ body{
     padding:1rem;
     border-bottom-left-radius: 1rem;
 }
+.navigation .nav-bar .link-active{
+    font-weight: bold;
+}
 .list-non-bullet{
     list-style:none;
 }
