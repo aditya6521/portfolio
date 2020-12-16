@@ -16,9 +16,6 @@ body{
     padding:1rem;
     border-bottom-left-radius: 1rem;
 }
-.navigation .nav-bar .link-active{
-    font-weight: bold;
-}
 .list-non-bullet{
     list-style:none;
 }
@@ -39,6 +36,9 @@ body{
     padding-left: 1rem;
     
 }
+.navigation .nav-bar .link-active{
+    font-weight: bold;}
+
 .hero{
     padding-top: 2rem;
 
@@ -58,6 +58,7 @@ body{
 }
 .center-text{
     text-align: center;
+    padding-inline-start:0px;
 
 }
 .text-body{
@@ -74,6 +75,7 @@ body{
     border-top-right-radius: 1rem;
     text-align: center;
     margin: 0rem;
+    padding-inline-start: 0px;
 }
   /* projects page */
 
