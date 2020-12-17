@@ -14,7 +14,7 @@ body{
 .navigation {
     background-color: var(--primary-color);
     padding:1rem;
-    border-bottom-left-radius: 1rem;
+    border-bottom-left-radius: 2rem;
 }
 .list-non-bullet{
     list-style:none;
@@ -74,7 +74,7 @@ body{
 .footer {
     background-color: var(--primary-color);
     padding:2rem 2rem;
-    border-top-right-radius: 1rem;
+    border-top-right-radius: 2rem;
     text-align: center;
     margin: 0rem;
     padding-inline-start: 0px;
